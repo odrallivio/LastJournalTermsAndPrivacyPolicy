@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Last Journal — Legal</title>
-<meta name="description" content="Privacy Policy and Terms of Use for the Last Journal app.">
+<meta name="description" content="Privacy Policy, Terms of Use and account deletion for the Last Journal app.">
 <style>
 :root{--bg:#ffffff;--fg:#1c1e21;--muted:#5b6166;--rule:#e3e6e8;--accent:#2f6f8f;--card:#f7f8f9}
 @media (prefers-color-scheme:dark){:root{--bg:#15171a;--fg:#e6e8ea;--muted:#a3abb2;--rule:#2b2f34;--accent:#7fb6d4;--card:#1c1f23}}
@@ -39,6 +39,12 @@ a{color:var(--accent)}
 .card h2{margin:0 0 6px;font-size:1.05rem;color:var(--accent)}
 .card p{margin:0;color:var(--muted);font-size:.93rem}
 .lede{font-size:1.02rem}
+.steps{counter-reset:s;padding-left:0;list-style:none}
+.steps li{counter-increment:s;position:relative;padding-left:34px;margin-bottom:12px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:24px;height:24px;
+ border-radius:50%;background:var(--accent);color:#fff;font-size:.8rem;display:flex;
+ align-items:center;justify-content:center;font-weight:600}
+.warn{border-left:3px solid var(--accent);background:var(--card);padding:12px 16px;border-radius:0 8px 8px 0;margin:18px 0}
 </style>
 </head>
 <body>
@@ -49,7 +55,7 @@ a{color:var(--accent)}
 </header>
 
 <p class="lede">Last Journal is a quick daily journal for Android. Your journal lives on your device;
-cloud backup is optional and encrypted before it leaves your phone. These two documents explain exactly
+cloud backup is optional and encrypted before it leaves your phone. These documents explain exactly
 what that means.</p>
 
 <div class="cards">
@@ -60,6 +66,10 @@ what that means.</p>
 <a class="card" href="terms.html">
 <h2>Terms of Use</h2>
 <p>The agreement covering accounts, subscriptions, cloud backups and storage limits.</p>
+</a>
+<a class="card" href="delete-account.html">
+<h2>Delete your account</h2>
+<p>How to delete your account and everything stored for it, in the app or by email.</p>
 </a>
 </div>
 
