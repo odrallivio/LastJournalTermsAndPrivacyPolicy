@@ -31,20 +31,13 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);font-si
 footer a{color:var(--accent)}
 a{color:var(--accent)}
 
-.cards{display:grid;gap:14px;margin:26px 0 8px}
-@media (min-width:560px){.cards{grid-template-columns:1fr 1fr}}
-.card{display:block;border:1px solid var(--rule);border-radius:10px;padding:18px 20px;
- text-decoration:none;color:inherit;background:var(--card)}
-.card:hover{border-color:var(--accent)}
-.card h2{margin:0 0 6px;font-size:1.05rem;color:var(--accent)}
-.card p{margin:0;color:var(--muted);font-size:.93rem}
-.lede{font-size:1.02rem}
 .steps{counter-reset:s;padding-left:0;list-style:none}
 .steps li{counter-increment:s;position:relative;padding-left:34px;margin-bottom:12px}
 .steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:24px;height:24px;
  border-radius:50%;background:var(--accent);color:#fff;font-size:.8rem;display:flex;
  align-items:center;justify-content:center;font-weight:600}
 .warn{border-left:3px solid var(--accent);background:var(--card);padding:12px 16px;border-radius:0 8px 8px 0;margin:18px 0}
+.lede{font-size:1.02rem}
 </style>
 </head>
 <body>
@@ -73,13 +66,14 @@ used to sign in, and say that you want your account deleted.</p>
 <div class="warn">
 <p><strong>We confirm it is really you before deleting anything.</strong> We reply to the email address on the
 account and wait for you to confirm from that address. A request sent from any other address, or one that is
-never confirmed, is not acted on — so nobody can have your journal deleted by asking on your behalf. Deleting
-a journal is permanent, so we would rather be slow than wrong.</p>
+never confirmed, is not acted on &mdash; so nobody can have your journal deleted by asking on your behalf.
+Deleting a journal is permanent, so we would rather be slow than wrong.</p>
 </div>
 
-<p>Once you confirm, we complete the deletion and tell you it is done, within <strong>30 days</strong> at the
-latest. Deleting it yourself in the app is faster, and needs no confirmation because you are already signed
-in.</p>
+<p>Once you confirm, we complete the deletion and tell you it is done, within <strong>30 days</strong>. If a
+request is unusually complex and needs longer, we will tell you inside those 30 days and take at most
+<strong>60 days</strong> in total. Deleting it yourself in the app is faster, and needs no confirmation
+because you are already signed in.</p>
 
 <h2>What gets deleted</h2>
 <ul>
@@ -90,8 +84,8 @@ in.</p>
 </ul>
 
 <div class="warn">
-<p><strong>This cannot be undone,</strong> and it is not reversible by us either — once your encryption keys
-are gone, any copy of a backup that might still exist is unreadable.</p>
+<p><strong>This cannot be undone,</strong> and it is not reversible by us either &mdash; once your encryption
+keys are gone, any copy of a backup that might still exist is unreadable.</p>
 </div>
 
 <h2 id="delete-some-data">Delete some data without deleting your account</h2>
@@ -108,15 +102,17 @@ on your device.</li>
 those photos from cloud storage; older backups that included them will restore without them. Your account,
 your other backups, and the journal on your device are all unaffected.</p>
 <p>You can also email <a href="mailto:lastjournal.contact@gmail.com">lastjournal.contact@gmail.com</a> to ask
-us to remove specific data for you, and we will reply within <strong>30 days</strong>.</p>
+us to remove specific data for you. We verify these requests the same way, and reply within
+<strong>30 days</strong> &mdash; up to <strong>60 days</strong> if the request is complex, in which case we
+tell you inside the first 30.</p>
 
 <h2>How long we keep it after deletion</h2>
 <p>Nothing is kept. Deleting your account in the app removes your backups, photos and encryption keys from
 cloud storage <strong>immediately</strong>, and the account itself with them. We keep no archived copies and
 no earlier versions of removed files, so once it is gone we cannot restore it even if you ask.</p>
 <p>If you email us instead, deletion happens once you have confirmed the request from the account's own email
-address, and within <strong>30 days</strong> at the latest. The only thing kept afterwards is the request and
-its confirmation, which we may retain as a record of who asked and when.</p>
+address, on the timescale above. The only thing kept afterwards is the request and its confirmation, which we
+may retain as a record of who asked and when.</p>
 
 <h2>What stays on your phone</h2>
 <p>Deleting your account does <strong>not</strong> touch the journal stored on your device. Your entries and
@@ -124,8 +120,8 @@ photos stay exactly where they are, and the app keeps working without an account
 the device as well, delete the entries in the app or uninstall it.</p>
 
 <footer>
-<p><a href="index.html">Legal home</a> · <a href="privacy.html">Privacy Policy</a> ·
-<a href="terms.html">Terms of Use</a> ·
+<p><a href="index.html">Legal home</a> &middot; <a href="privacy.html">Privacy Policy</a> &middot;
+<a href="terms.html">Terms of Use</a> &middot;
 <a href="mailto:lastjournal.contact@gmail.com">lastjournal.contact@gmail.com</a></p>
 </footer>
 </div>
