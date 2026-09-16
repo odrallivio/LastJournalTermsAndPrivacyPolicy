@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Delete your Last Journal account</title>
+<meta name="description" content="How to delete your Last Journal account and all data stored for it.">
+<style>
+:root{--bg:#ffffff;--fg:#1c1e21;--muted:#5b6166;--rule:#e3e6e8;--accent:#2f6f8f;--card:#f7f8f9}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--fg:#e6e8ea;--muted:#a3abb2;--rule:#2b2f34;--accent:#7fb6d4;--card:#1c1f23}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+ font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+ -webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:40px 20px 72px}
+header{border-bottom:1px solid var(--rule);padding-bottom:18px;margin-bottom:28px}
+h1{font-size:1.75rem;line-height:1.25;margin:0 0 6px}
+.sub{color:var(--muted);font-size:.9rem;margin:0}
+h2{font-size:1.15rem;margin:34px 0 10px;padding-top:6px}
+p{margin:0 0 14px}
+ul{margin:0 0 16px;padding-left:22px}
+li{margin:0 0 8px}
+strong{font-weight:600}
+code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:.9em}
+.tablewrap{overflow-x:auto;margin:0 0 18px}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{border:1px solid var(--rule);padding:9px 11px;text-align:left;vertical-align:top}
+th{background:var(--card);font-weight:600}
+.effective{margin-top:34px;padding-top:16px;border-top:1px solid var(--rule);color:var(--muted);font-size:.92rem}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);font-size:.9rem;color:var(--muted)}
+footer a{color:var(--accent)}
+a{color:var(--accent)}
+
+.cards{display:grid;gap:14px;margin:26px 0 8px}
+@media (min-width:560px){.cards{grid-template-columns:1fr 1fr}}
+.card{display:block;border:1px solid var(--rule);border-radius:10px;padding:18px 20px;
+ text-decoration:none;color:inherit;background:var(--card)}
+.card:hover{border-color:var(--accent)}
+.card h2{margin:0 0 6px;font-size:1.05rem;color:var(--accent)}
+.card p{margin:0;color:var(--muted);font-size:.93rem}
+.lede{font-size:1.02rem}
+.steps{counter-reset:s;padding-left:0;list-style:none}
+.steps li{counter-increment:s;position:relative;padding-left:34px;margin-bottom:12px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:24px;height:24px;
+ border-radius:50%;background:var(--accent);color:#fff;font-size:.8rem;display:flex;
+ align-items:center;justify-content:center;font-weight:600}
+.warn{border-left:3px solid var(--accent);background:var(--card);padding:12px 16px;border-radius:0 8px 8px 0;margin:18px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Delete your Last Journal account</h1>
+<p class="sub">Last Journal, by Aldene Villardo</p>
+</header>
+
+<p class="lede">You can delete your Last Journal account and everything stored for it in the cloud, either
+from inside the app or by asking us directly. Both routes delete the same things.</p>
+
+<h2>Delete it yourself, in the app</h2>
+<ol class="steps">
+<li>Open <strong>Last Journal</strong> on your device.</li>
+<li>Go to <strong>Settings</strong>.</li>
+<li>Open <strong>Account Management</strong>, then choose <strong>Account And Backup Files Deletion</strong>.</li>
+<li>Confirm. Your account and everything stored for it in the cloud are deleted straight away.</li>
+</ol>
+
+<h2>Or ask us to delete it</h2>
+<p>If you have already uninstalled the app, or cannot reach that screen, email
+<a href="mailto:lastjournal.contact@gmail.com">lastjournal.contact@gmail.com</a> from the email address you
+used to sign in, and say that you want your account deleted. We will confirm once it is done, and in any case
+within <strong>30 days</strong>.</p>
+
+<h2>What gets deleted</h2>
+<ul>
+<li>Every cloud <strong>backup</strong> stored for your account</li>
+<li>Every <strong>photo</strong> you have backed up</li>
+<li>Your <strong>encryption keys</strong></li>
+<li>Your <strong>account</strong> itself, including the email address held for it</li>
+</ul>
+
+<div class="warn">
+<p><strong>This cannot be undone,</strong> and it is not reversible by us either — once your encryption keys
+are gone, any copy of a backup that might still exist is unreadable.</p>
+</div>
+
+<h2>What stays on your phone</h2>
+<p>Deleting your account does <strong>not</strong> touch the journal stored on your device. Your entries and
+photos stay exactly where they are, and the app keeps working without an account. To remove the journal from
+the device as well, delete the entries in the app or uninstall it.</p>
+
+<footer>
+<p><a href="index.html">Legal home</a> · <a href="privacy.html">Privacy Policy</a> ·
+<a href="terms.html">Terms of Use</a> ·
+<a href="mailto:lastjournal.contact@gmail.com">lastjournal.contact@gmail.com</a></p>
+</footer>
+</div>
+</body>
+</html>
